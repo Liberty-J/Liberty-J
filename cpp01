@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+void add(int x,int y)//求和函数
+{
+  int z=x+y;
+  return z;
+}
+
+void swap(int a,int b)//交换值函数
+{
+  int c=a;
+  b=a;
+  b=c;
+  return 0;
+}
+
+
+int main()
+{
+  int x=5,y=10;
+  cout<<"x="<< x <<"y="<< y <<endl;
+  int add;
+  
+  add=add(x,y);
+  cout<<"x+y="<<add<<endl;
+  
+  
+  return 0;
+}
